@@ -26,12 +26,12 @@ $ hash_generator.sh
 
 ```
 $ install_packges_arch_linux.sh
-- Script para automatizar a instalação de pacotes no arch linux após a formatação do sistema.
+- Script para automatizar a instalação de pacotes no arch linux após a instalação do sistema.
 ```
 
 ```
 $ install_packges_linux_mint.sh
-- Script para automatizar a instalação de pacotes no linux mint após a formatação do sistema.
+- Script para automatizar a instalação de pacotes no linux mint após a instalação do sistema.
 ```
 
 ---
