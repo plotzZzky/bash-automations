@@ -15,7 +15,7 @@ $ create_links_folders.sh
 ```
 
 ```
-$ test_url
+$ test_url.sh
 - Ferramenta para testar solicitaçoes http de forma simples.
 ```
 
