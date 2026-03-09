@@ -34,7 +34,11 @@ clear
 echo "Começando...
 "
 
-create_link "Criando templates..." "Templates" "Projects/Templates"
+create_link "Criando templates..." "Templates" "Projects/linux-templates/templates"
+
+create_link "Criando musicas..." "Music" "Musics"
+
+create_link "Criando videos..." "Videos" "Videos"
 
 create_link "Criando Backgrounds..." "Pictures/Backgrounds" "Pictures/Backgrounds"
 
