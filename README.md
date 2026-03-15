@@ -5,7 +5,12 @@
 ``` bash
 $ convert_mp4_to_mp3.sh
 - Script para converter podcasts em video .mp4 para .mp3.
-- Ideal para converter podcasts em mp3
+- Ideal para converter podcasts em mp3.
+```
+
+```bash
+$ create_groups_and_users.sh
+- Script para criar grupos, usuários e gerentes de setores para sistemas de forma automatizada.
 ```
 
 ```
