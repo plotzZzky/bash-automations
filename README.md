@@ -1,5 +1,6 @@
 ## BashScripts 🖥️
 #### Scripts em Bash desenvolvidos para automatizar tarefas rotineiras no Linux, com foco em eficiência e aumento de produtividade.
+
 ----
 
 ``` bash
@@ -20,11 +21,6 @@ $ create_links_folders.sh
 ```
 
 ```
-$ test_url.sh
-- Ferramenta para testar solicitaçoes http de forma simples.
-```
-
-```
 $ hash_generator.sh
 - Script para gerar as hashes de arquivos usando qualquer algoritimo.
 ```
@@ -39,9 +35,15 @@ $ install_packges_linux_mint.sh
 - Script para automatizar a instalação de pacotes no linux mint após a instalação do sistema.
 ```
 
----
-### Para executar os scripts (apenas no linux)
+```
+$ test_api.sh
+- Ferramenta para testar solicitaçoes http de forma simples.
+```
 
+---
+### Como usar 
+
+#### Para executar os scripts, no linux, digite no terminal o comando abaixo
 ``` bash
  $ bash script_name.sh
 ```

@@ -3,7 +3,7 @@
 # ------------------------------ Functions ----------------------------
 eval home="~$USER" # recebe o path da home do usuario atual
 
-backup="/files" # Path da pasta de backup do usuario
+backup="/Files" # Path da pasta de backup do usuario
 
 
 function create_link() {
@@ -38,7 +38,7 @@ create_link "Criando templates..." "Templates" "Projects/linux-templates/templat
 
 create_link "Criando musicas..." "Music" "Musics"
 
-create_link "Criando videos..." "Videos" "Videos"
+create_link "Criando videos..." "Videos" "Movies"
 
 create_link "Criando Backgrounds..." "Pictures/Backgrounds" "Pictures/Backgrounds"
 
