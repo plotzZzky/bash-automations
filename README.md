@@ -10,6 +10,11 @@ $ convert_mp4_to_mp3.sh
 ```
 
 ```bash
+$ create_github_ssh_key.sh
+- Script para criar a chave para acesso remoto ao github de forma simplificada
+```
+
+```bash
 $ create_groups_and_users.sh
 - Script para criar grupos, usuários e gerentes de setores para sistemas de forma automatizada.
 ```
@@ -18,6 +23,12 @@ $ create_groups_and_users.sh
 $ create_links_folders.sh 
 - Substitui algumas pastas do sistema linux por links simbolicos para pastas em outra partiçao
 - Facilita backups e formatações.
+```
+
+```
+$ delete_projects_folder.sh
+- Deleta pastas algumas pastas dos projetos para facilitar backups local.
+- Lista de pasta inclui .venv, .idea, .next, __pycahe__ e node_modules
 ```
 
 ```
