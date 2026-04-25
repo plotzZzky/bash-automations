@@ -3,7 +3,7 @@
 # ------------------------------ Functions ----------------------------
 eval home="~$USER" # recebe o path da home do usuario atual
 
-backup="/Files" # Path da pasta de backup do usuario
+backup="/files" # Path da pasta de backup do usuario
 
 
 function create_link() {

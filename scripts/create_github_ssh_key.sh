@@ -18,16 +18,14 @@ ssh-keygen -t ed25519 -C $user_email -f "$HOME/.ssh/github_key"
 ssh-add ~/.ssh/github_key
 
 # Configura o user do git
-git --global user.username $username
-git --global user.email $email
+git config --global user.name "$username"
+git config --global user.email "$email"
 
 # Exibe a chave para ser colada na config do github
-echo -e "Cole a linha abaixo na config do github\n"
+echo -e "\nCole a linha abaixo na config do github\n"
 
 cat ~/.ssh/github_key.pub
 
-echo ""
-
 # Abre o navegador na pagina do github
-xdg-open https://github.com/
+xdg-open https://github.com/settings/keys
 

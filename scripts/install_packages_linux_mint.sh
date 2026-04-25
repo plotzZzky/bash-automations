@@ -4,6 +4,7 @@ set -a
 source .env
 set +a
 
+
 # Exemplo de variaveis do .env
 # BASE="xfce4-goodies docker.io"
 # DEV="nodejs npm"
@@ -11,7 +12,7 @@ set +a
 # OFFICE="libreoffice evince"
 # INTERNET="Brave VSCodium"
 
-
+# --------------------------------- Functions ----------------------------------
 function update_and_upgrade_system() {
   sudo apt update -y && apt upgrade -y
 }
@@ -52,6 +53,6 @@ function install_all_packages() {
   install_flatpak_packages "$INTERNET"
 }
 
-
+# --------------------------------- Run ----------------------------------
 install_all_packages
 
