@@ -3,7 +3,7 @@
 
 # Lista dos packages necessários
 PACKAGE_MANAGER_CMD="pacman --noconfirm -Syu"
-PACKAGES="virt-manager qemu libvirt virt-viewer edk2-ovmf dnsmasq openbsd-netcat iptables-nft libguestfs"
+PACKAGES="virt-manager qemu-desktop libvirt virt-viewer edk2-ovmf dnsmasq openbsd-netcat iptables-nft libguestfs"
 
 # - - - - - - - Code - - - - - - -
 function start_instalation() {
@@ -29,11 +29,12 @@ function install_packages() {
 function enable_virtd() {
   # Inicia o libvirtd service
   sudo systemctl enable --now libvirtd.service
+  sudo systemctl enable --now libvirtd.socket
 }
 
 function add_user_to_libvirt_group() {
   # Adiciona o usuario atual ao grupo do libvirt
-  sudo usermod -aG libvirt $(whoami)
+  sudo usermod -aG libvirt,kvm $USER
 }
 
 function set_rede_default() {
